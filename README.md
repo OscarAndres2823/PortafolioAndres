@@ -71,7 +71,6 @@ Portafolio/
 
 Este proyecto es de uso libre para fines educativos y personales.
 
----
-
-**Desarrollado con ❤️ por Oscar Andres Toloza Ortiz**
+## Vista:
+https://musical-quokka-ade2ce.netlify.app/
 
