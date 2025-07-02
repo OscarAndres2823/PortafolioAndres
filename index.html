@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Oscar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icons/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Oscar</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="burger" id="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fondo de partículas para la sección de inicio -->
+  <div id="particles-js" class="particles-container"></div>
+
+  <!-- Sección de Inicio -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="hero-title">Hola, soy <span class="highlight">Oscar</span></h1>
+        <h2 class="hero-subtitle">Desarrollador Junior Developer</h2>
+        <p class="hero-description">Creando experiencias digitales únicas</p>
+        <div class="cta-buttons">
+          <a href="#proyectos" class="btn primary">Ver Proyectos</a>
+          <a href="#contacto" class="btn secondary">Contáctame</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Sobre Mí -->
+  <section id="sobre-mi" class="about">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Sobre Mí</h2>
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+          <p>Soy un entusiasta de la programación que está comenzando su viaje en el mundo del desarrollo. Aunque no tengo experiencia laboral formal, he creado varios proyectos personales que me han permitido aplicar y expandir mis conocimientos.</p>
+          <p>Me apasiona aprender nuevas tecnologías y resolver problemas a través del código. Mi objetivo es seguir creciendo como desarrollador y crear aplicaciones que sean tanto funcionales como visualmente atractivas.</p>
+          <div class="personal-info">
+            <div class="info-item"><span class="info-title">Nombre:</span><span class="info-value">Oscar Andres Toloza Ortiz</span></div>
+            <div class="info-item"><span class="info-title">Email:</span><span class="info-value">oscarandresortiz17@email.com</span></div>
+            <div class="info-item"><span class="info-title">Ubicación:</span><span class="info-value">Piedecuesta, Colombia</span></div>
+            <div class="info-item"><span class="info-title">Disponibilidad:</span><span class="info-value">Disponible para proyectos</span></div>
+          </div>
+          <a href="pdf/PERFIL.pdf" class="btn primary" target="_blank">Descargar CV</a>
+        </div>
+        <div class="about-image" data-aos="fade-left" data-aos-delay="400">
+          <div class="image-container">
+            <img src="img/yo.png" alt="Oscar Andres Toloza Ortiz" class="profile-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Enlaces Profesionales -->
+  <section id="enlaces" class="links-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Conecta Conmigo</h2>
+      <div class="links-grid" data-aos="fade-up" data-aos-delay="200">
+        <a href="https://github.com/OscarAndres2823" class="social-link github">
+          <div class="social-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/andres-toloza-ortiz/" class="social-link linkedin">
+          <div class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Proyectos -->
+  <section id="proyectos" class="projects">
+    <div class="container">
+      <h2 class="section-title">Mis Proyectos</h2>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+      </div>
+      <div class="projects-grid">
+        <!-- Proyecto 1: App de Eventos Musicales -->
+        <div class="project-card" data-category="app" data-aos="fade-up">
+          <div class="project-img">
+            <img src="img/music.png" alt="App de Eventos Musicales">
+          </div>
+          <div class="project-info">
+            <h3>App de Eventos Musicales</h3>
+            <p>Aplicación que permite a los usuarios descubrir y seguir eventos musicales en su área. Desarrollada con tecnologías modernas de frontend y backend.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://timely-capybara-489d66.netlify.app/" class="btn small">Ver Proyecto</a>
+              <a href="https://github.com/OscarAndres2823/Music_proyect.git" class="btn small secondary">Código</a>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2: Sistema de Gestión Empresarial en C# -->
+        <div class="project-card" data-category="app" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-img">
+            <img src="img/gestion.png" alt="Sistema de Gestión Empresarial en C#">
+          </div>
+          <div class="project-info">
+            <h3>Sistema de Gestión Empresarial SOE</h3>
+            <p>Sistema completo de gestión empresarial desarrollado en C# con arquitectura en capas. Incluye módulos para administración de clientes, productos, empleados, proveedores y más.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">C#</span>
+              <span class="tech-tag">.NET</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/OscarAndres2823/project_C-.git" class="btn small">Ver Proyecto</a>
+              <a href="https://github.com/OscarAndres2823/project_C-.git" class="btn small secondary">Código</a>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3: Página de Hamburguesas -->
+        <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-img">
+            <img src="img/web.png" alt="Página de Hamburguesas">
+          </div>
+          <div class="project-info">
+            <h3>Burger Deluxe</h3>
+            <p>Sitio web responsivo para un restaurante de hamburguesas con menú interactivo, sistema de pedidos y reseñas de clientes.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/OscarAndres2823/Hambur-websitie.git" class="btn small">Ver Proyecto</a>
+              <a href="https://github.com/OscarAndres2823/Hambur-websitie.git" class="btn small secondary">Código</a>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4: Sistema de Gestión Automotriz – Frontend -->
+        <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="600">
+          <div class="project-img">
+            <img src="img/sistemaautomotriz.png" alt="Sistema de Gestión Automotriz – Frontend">
+          </div>
+          <div class="project-info">
+            <h3>🚗 Sistema de Gestión Automotriz – Frontend</h3>
+            <p>Frontend de un sistema de gestión automotriz desarrollado con React. Permite la administración eficiente de un taller mecánico, con funcionalidades para Administrador, Mecánico y Recepcionista.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/OscarAndres2823/projectFullStack.git" class="btn small">Ver Proyecto</a>
+              <a href="https://github.com/OscarAndres2823/projectFullStack.git" class="btn small secondary">Código</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Habilidades -->
+  <section id="habilidades" class="skills">
+    <div class="container">
+      <h2 class="section-title">Mis Habilidades</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3>Desarrollo Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fab fa-html5"></i></div>
+              <h4>HTML5</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+              <h4>CSS3</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fab fa-js"></i></div>
+              <h4>JavaScript</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Desarrollo Backend</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+              <h4>C#</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fas fa-database"></i></div>
+              <h4>SQL</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fab fa-python"></i></div>
+              <h4>Python</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 65%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Herramientas & Otros</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+              <h4>Git</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fab fa-figma"></i></div>
+              <h4>Figma</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+              <h4>Responsive</h4>
+              <div class="skill-progress">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contáctame</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Ubicación</h3>
+              <p>Piedecuesta, Colombia</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Email</h3>
+              <p>oscarandresortiz17@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Teléfono</h3>
+              <p>+57 316 140 4404</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/andres-toloza-ortiz/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/OscarAndres2823" class="social-icon"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Tu Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Tu Mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Oscar.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html> 
